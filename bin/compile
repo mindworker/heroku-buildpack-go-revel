@@ -165,3 +165,4 @@ mkdir -p $build/.profile.d
 echo 'PATH=$PATH:$HOME/bin' > $build/.profile.d/go.sh
 
 go get github.com/revel/cmd/revel
+go get github.com/renstrom/shortuuid
